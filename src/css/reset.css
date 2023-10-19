@@ -1,0 +1,13 @@
+/*o asterisco faz com que todas as tags peguem as "regras listadas a baixo"*/
+/*o margin seria o espaçamento externo dos elementos*/
+/*o padding seria o espaçamento interno dos elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*não aparecer como se fosse uma lista*/
+ul {
+    list-style: none;
+}
